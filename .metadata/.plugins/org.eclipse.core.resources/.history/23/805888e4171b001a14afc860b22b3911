@@ -1,0 +1,13 @@
+#include <cuda.h>
+#include <stdio.h>
+
+void hello();
+
+int main(void) {
+	hello();
+}
+
+void hello()
+{
+	printf("Good job!\n");
+}

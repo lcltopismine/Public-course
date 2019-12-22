@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;openmp_practise&apos;" deleteContents="false" description="Delete resource &apos;openmp_practise&apos;" element1="/openmp_practise" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1575953831498"/>&#x0A;<refactoring comment="Delete resource &apos;cuda_final&apos;" deleteContents="false" description="Delete resource &apos;cuda_final&apos;" element1="/cuda_final" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1575959363523"/>
+</session>

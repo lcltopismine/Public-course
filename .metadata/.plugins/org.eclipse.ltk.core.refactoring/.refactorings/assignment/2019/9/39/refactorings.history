@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;assignment/CCalGlobalSum_pthreads_sem_barrier.c&apos; to &apos;CCalGlobalSum_pthreads_treesum_barrier_semaphore.c&apos;" description="Rename resource &apos;CCalGlobalSum_pthreads_sem_barrier.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="CCalGlobalSum_pthreads_sem_barrier.c" name="CCalGlobalSum_pthreads_treesum_barrier_semaphore.c" stamp="1569205104155" updateReferences="true"/>
+</session>

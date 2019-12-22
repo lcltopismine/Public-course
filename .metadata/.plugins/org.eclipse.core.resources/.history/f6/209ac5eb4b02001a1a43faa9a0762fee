@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+__global__
+void hello(void){
+	printf("Hello from the GPU\n");
+}
+
+
+int main(void){
+	printf("Hello from the CPU\n");
+	hello<<<1,6>>>();
+	return 0;
+}
+

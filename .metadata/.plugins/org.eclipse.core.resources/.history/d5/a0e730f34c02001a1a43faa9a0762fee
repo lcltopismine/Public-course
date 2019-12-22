@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+__global__
+void hello(void){
+	printf("Hello from the GPU")
+	printf("Hello from the GPU ID: blockIdx.x = %d, blockIdx.y = %d, blockIdx.z = %d \n",blockIdx.x,blockIdx.y,blockIdx.z);
+	printf("Hello from the GPU ID: threadIdx.x = %d, threadIdx.y = %d, threadIdx.z = %d \n",threadIdx.x, threadIdx.y, threadIdx.z);
+}
+
+
+int main(void){
+	printf("Hello from the CPU\n");
+	dim3 gridDim(2,3,1);
+	// setup 6 blocks
+	dim3 blockDim(10,2,3);
+	// setup 6 blocks, a diff setup;
+	hello<<<gridDim,blockDim>>>();
+
+	cudaDeviceReset();
+	return 0;
+}
+

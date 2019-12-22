@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+environment/buildEnvironmentInclude/com.nvidia.cuda.ide.nine_zero.configuration.debug.1399551935/CPATH/delimiter=\:
+environment/buildEnvironmentInclude/com.nvidia.cuda.ide.nine_zero.configuration.debug.1399551935/CPATH/operation=remove
+environment/buildEnvironmentInclude/com.nvidia.cuda.ide.nine_zero.configuration.debug.1399551935/CPLUS_INCLUDE_PATH/delimiter=\:
+environment/buildEnvironmentInclude/com.nvidia.cuda.ide.nine_zero.configuration.debug.1399551935/CPLUS_INCLUDE_PATH/operation=remove
+environment/buildEnvironmentInclude/com.nvidia.cuda.ide.nine_zero.configuration.debug.1399551935/append=true
+environment/buildEnvironmentInclude/com.nvidia.cuda.ide.nine_zero.configuration.debug.1399551935/appendContributed=true

@@ -1,0 +1,19 @@
+15:41:57 **** Build of configuration Debug for project c2g ****
+make all 
+Building file: ../color2gray.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"color2gray.d" -MT"color2gray.d" -o "color2gray.o" "../color2gray.c"
+Finished building: ../color2gray.c
+ 
+Building file: ../color2gray_mpi.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"color2gray_mpi.d" -MT"color2gray_mpi.d" -o "color2gray_mpi.o" "../color2gray_mpi.c"
+../color2gray_mpi.c:24:10: fatal error: mpi.h: No such file or directory
+ #include <mpi.h>
+          ^~~~~~~
+compilation terminated.
+make: *** [color2gray_mpi.o] Error 1
+subdir.mk:27: recipe for target 'color2gray_mpi.o' failed
+
+15:41:59 Build Finished (took 1s.517ms)
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;assignment/Copy of CCalGlobalSum_pthreads_metex.c&apos; to &apos;CCalGlobalSum_pthreads_metex.c&apos;" description="Rename resource &apos;Copy of CCalGlobalSum_pthreads_metex.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Copy of CCalGlobalSum_pthreads_metex.c" name="CCalGlobalSum_pthreads_metex.c" stamp="1568732617912" updateReferences="true"/>
+</session>

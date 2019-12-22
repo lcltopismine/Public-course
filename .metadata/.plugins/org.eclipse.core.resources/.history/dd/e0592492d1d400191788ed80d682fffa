@@ -1,0 +1,13 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+int main(int argc, char *argv[]){
+	long data_count = strtol(argv[1], NULL,10);
+	long min_meas = strtol(argv[2], NULL,10);
+	long max_meas = strtol(argv[3], NULL,10);
+	long bin_count = strtol(argv[4], NULL,10);
+
+	printf("Hello\n");
+	printf((char)(data_count),min_meas,max_meas,bin_count);
+
+}

@@ -1,0 +1,18 @@
+15:41:54 **** Incremental Build of configuration Debug for project Openmp ****
+make all 
+Building file: ../odd_even_parallel.c
+Invoking: NVCC Compiler
+/usr/local/cuda-10.0/bin/nvcc -G -g -O0   -odir "." -M -o "odd_even_parallel.d" "../odd_even_parallel.c"
+/usr/local/cuda-10.0/bin/nvcc -G -g -O0 --compile  -x c -o  "odd_even_parallel.o" "../odd_even_parallel.c"
+../odd_even_parallel.c: In function ‘main’:
+../odd_even_parallel.c:37:4: error: too few arguments to function ‘Get_args’
+    Get_args(argc, argv, &n, &g_i);
+    ^~~~~~~~
+../odd_even_parallel.c:23:6: note: declared here
+ void Get_args(int argc, char* argv[], int* n_p, char* g_i_p, int* count);
+      ^~~~~~~~
+subdir.mk:57: recipe for target 'odd_even_parallel.o' failed
+make: *** [odd_even_parallel.o] Error 1
+
+15:41:55 Build Finished (took 294ms)
+

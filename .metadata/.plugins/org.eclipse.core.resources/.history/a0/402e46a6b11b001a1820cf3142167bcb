@@ -1,0 +1,15 @@
+/*
+
+*/
+#include <stdio.h>
+#include <stdlib.h>
+
+void hello();
+
+int main(void) {
+    hello();
+}
+
+void hello(){
+    printf("Good job!\n");
+}

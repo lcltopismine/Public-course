@@ -1,0 +1,44 @@
+14:34:48 **** Incremental Build of configuration Release for project matrix2 ****
+make all -C /home/student/Desktop/matrix2/Release 
+make: Entering directory '/home/student/Desktop/matrix2/Release'
+Building file: ../matrixMul_v2.cu
+Invoking: NVCC Compiler
+/usr/local/cuda/bin/nvcc -O3 -gencode arch=compute_35,code=sm_35 -gencode arch=compute_60,code=sm_60 -gencode arch=compute_61,code=sm_61 -gencode arch=compute_62,code=sm_62  -odir "." -M -o "matrixMul_v2.d" "../matrixMul_v2.cu"
+/usr/local/cuda/bin/nvcc -O3 --compile --relocatable-device-code=false -gencode arch=compute_35,code=compute_35 -gencode arch=compute_60,code=compute_60 -gencode arch=compute_61,code=compute_61 -gencode arch=compute_62,code=compute_62 -gencode arch=compute_35,code=sm_35 -gencode arch=compute_60,code=sm_60 -gencode arch=compute_61,code=sm_61 -gencode arch=compute_62,code=sm_62  -x cu -o  "matrixMul_v2.o" "../matrixMul_v2.cu"
+../matrixMul_v2.cu(45): warning: variable "height" was declared but never referenced
+
+../matrixMul_v2.cu(45): warning: variable "width" was declared but never referenced
+
+../matrixMul_v2.cu(45): warning: variable "height" was declared but never referenced
+
+../matrixMul_v2.cu(45): warning: variable "width" was declared but never referenced
+
+../matrixMul_v2.cu(45): warning: variable "height" was declared but never referenced
+
+../matrixMul_v2.cu(45): warning: variable "width" was declared but never referenced
+
+../matrixMul_v2.cu(45): warning: variable "height" was declared but never referenced
+
+../matrixMul_v2.cu(45): warning: variable "width" was declared but never referenced
+
+Finished building: ../matrixMul_v2.cu
+ 
+Building target: matrix2
+Invoking: NVCC Linker
+/usr/local/cuda/bin/nvcc --cudart static --relocatable-device-code=false -gencode arch=compute_35,code=compute_35 -gencode arch=compute_60,code=compute_60 -gencode arch=compute_61,code=compute_61 -gencode arch=compute_62,code=compute_62 -gencode arch=compute_35,code=sm_35 -gencode arch=compute_60,code=sm_60 -gencode arch=compute_61,code=sm_61 -gencode arch=compute_62,code=sm_62 -link -o  "matrix2"  ./matrixMul_v2.o   
+Finished building target: matrix2
+ 
+make: Leaving directory '/home/student/Desktop/matrix2/Release'
+> Shell Completed (exit code = 0)
+14:35:09 **** Incremental Build of configuration Release for project matrix2 ****
+make all -C /home/student/Desktop/matrix2/Release 
+make: Entering directory '/home/student/Desktop/matrix2/Release'
+make: Nothing to be done for 'all'.
+make: Leaving directory '/home/student/Desktop/matrix2/Release'
+> Shell Completed (exit code = 0)
+14:35:17 **** Incremental Build of configuration Release for project matrix2 ****
+make all -C /home/student/Desktop/matrix2/Release 
+make: Entering directory '/home/student/Desktop/matrix2/Release'
+make: Nothing to be done for 'all'.
+make: Leaving directory '/home/student/Desktop/matrix2/Release'
+> Shell Completed (exit code = 0)

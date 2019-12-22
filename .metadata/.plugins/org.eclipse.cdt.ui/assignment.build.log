@@ -1,0 +1,169 @@
+15:41:56 **** Build of configuration Debug for project assignment ****
+make all 
+Building file: ../CCalGlobalSum_pthreads_busywait_error.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CCalGlobalSum_pthreads_busywait_error.d" -MT"CCalGlobalSum_pthreads_busywait_error.d" -o "CCalGlobalSum_pthreads_busywait_error.o" "../CCalGlobalSum_pthreads_busywait_error.c"
+../CCalGlobalSum_pthreads_busywait_error.c: In function ‘main’:
+../CCalGlobalSum_pthreads_busywait_error.c:41:83: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+   if (pthread_create(&thread_handlers[thread], NULL, computingGlobalSum_pthreads, (void *)thread)){
+                                                                                   ^
+../CCalGlobalSum_pthreads_busywait_error.c: In function ‘computingGlobalSum_pthreads’:
+../CCalGlobalSum_pthreads_busywait_error.c:72:9: warning: unused variable ‘factor’ [-Wunused-variable]
+  double factor;
+         ^~~~~~
+Finished building: ../CCalGlobalSum_pthreads_busywait_error.c
+ 
+Building file: ../CCalGlobalSum_pthreads_error.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CCalGlobalSum_pthreads_error.d" -MT"CCalGlobalSum_pthreads_error.d" -o "CCalGlobalSum_pthreads_error.o" "../CCalGlobalSum_pthreads_error.c"
+../CCalGlobalSum_pthreads_error.c: In function ‘main’:
+../CCalGlobalSum_pthreads_error.c:46:83: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+   if (pthread_create(&thread_handlers[thread], NULL, computingGlobalSum_pthreads, (void*) thread)){
+                                                                                   ^
+../CCalGlobalSum_pthreads_error.c: In function ‘computingGlobalSum_pthreads’:
+../CCalGlobalSum_pthreads_error.c:75:9: warning: unused variable ‘factor’ [-Wunused-variable]
+  double factor;
+         ^~~~~~
+Finished building: ../CCalGlobalSum_pthreads_error.c
+ 
+Building file: ../CCalGlobalSum_pthreads_metex.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CCalGlobalSum_pthreads_metex.d" -MT"CCalGlobalSum_pthreads_metex.d" -o "CCalGlobalSum_pthreads_metex.o" "../CCalGlobalSum_pthreads_metex.c"
+../CCalGlobalSum_pthreads_metex.c: In function ‘main’:
+../CCalGlobalSum_pthreads_metex.c:42:83: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+   if (pthread_create(&thread_handlers[thread], NULL, computingGlobalSum_pthreads, (void *)thread)){
+                                                                                   ^
+../CCalGlobalSum_pthreads_metex.c:43:43: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+    printf("Error creating a thread (id: %ld)\n", thread);
+                                         ~~^
+                                         %d
+../CCalGlobalSum_pthreads_metex.c:52:42: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+    printf("Error joining a thread (id: %ld)\n", thread);
+                                        ~~^
+                                        %d
+../CCalGlobalSum_pthreads_metex.c: In function ‘computingGlobalSum_pthreads’:
+../CCalGlobalSum_pthreads_metex.c:76:9: warning: unused variable ‘factor’ [-Wunused-variable]
+  double factor;
+         ^~~~~~
+Finished building: ../CCalGlobalSum_pthreads_metex.c
+ 
+Building file: ../CCalGlobalSum_pthreads_semaphore.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CCalGlobalSum_pthreads_semaphore.d" -MT"CCalGlobalSum_pthreads_semaphore.d" -o "CCalGlobalSum_pthreads_semaphore.o" "../CCalGlobalSum_pthreads_semaphore.c"
+../CCalGlobalSum_pthreads_semaphore.c: In function ‘main’:
+../CCalGlobalSum_pthreads_semaphore.c:42:83: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+   if (pthread_create(&thread_handlers[thread], NULL, computingGlobalSum_pthreads, (void *)thread)){
+                                                                                   ^
+../CCalGlobalSum_pthreads_semaphore.c:43:43: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+    printf("Error creating a thread (id: %ld)\n", thread);
+                                         ~~^
+                                         %d
+../CCalGlobalSum_pthreads_semaphore.c:52:42: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+    printf("Error joining a thread (id: %ld)\n", thread);
+                                        ~~^
+                                        %d
+../CCalGlobalSum_pthreads_semaphore.c: In function ‘computingGlobalSum_pthreads’:
+../CCalGlobalSum_pthreads_semaphore.c:78:9: warning: unused variable ‘factor’ [-Wunused-variable]
+  double factor;
+         ^~~~~~
+Finished building: ../CCalGlobalSum_pthreads_semaphore.c
+ 
+Building file: ../CCalGlobalSum_pthreads_treesum_barrier_mutex.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CCalGlobalSum_pthreads_treesum_barrier_mutex.d" -MT"CCalGlobalSum_pthreads_treesum_barrier_mutex.d" -o "CCalGlobalSum_pthreads_treesum_barrier_mutex.o" "../CCalGlobalSum_pthreads_treesum_barrier_mutex.c"
+../CCalGlobalSum_pthreads_treesum_barrier_mutex.c: In function ‘main’:
+../CCalGlobalSum_pthreads_treesum_barrier_mutex.c:77:83: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+   if (pthread_create(&thread_handlers[thread], NULL, computingGlobalSum_pthreads, (void *)thread)){
+                                                                                   ^
+../CCalGlobalSum_pthreads_treesum_barrier_mutex.c:78:43: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+    printf("Error creating a thread (id: %ld)\n", thread);
+                                         ~~^
+                                         %d
+../CCalGlobalSum_pthreads_treesum_barrier_mutex.c:87:42: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+    printf("Error joining a thread (id: %ld)\n", thread);
+                                        ~~^
+                                        %d
+Finished building: ../CCalGlobalSum_pthreads_treesum_barrier_mutex.c
+ 
+Building file: ../CCalGlobalSum_pthreads_treesum_barrier_sem.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CCalGlobalSum_pthreads_treesum_barrier_sem.d" -MT"CCalGlobalSum_pthreads_treesum_barrier_sem.d" -o "CCalGlobalSum_pthreads_treesum_barrier_sem.o" "../CCalGlobalSum_pthreads_treesum_barrier_sem.c"
+../CCalGlobalSum_pthreads_treesum_barrier_sem.c: In function ‘main’:
+../CCalGlobalSum_pthreads_treesum_barrier_sem.c:67:83: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+   if (pthread_create(&thread_handlers[thread], NULL, computingGlobalSum_pthreads, (void *)thread)){
+                                                                                   ^
+../CCalGlobalSum_pthreads_treesum_barrier_sem.c:68:43: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+    printf("Error creating a thread (id: %ld)\n", thread);
+                                         ~~^
+                                         %d
+../CCalGlobalSum_pthreads_treesum_barrier_sem.c:77:42: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+    printf("Error joining a thread (id: %ld)\n", thread);
+                                        ~~^
+                                        %d
+Finished building: ../CCalGlobalSum_pthreads_treesum_barrier_sem.c
+ 
+Building file: ../CCalGlobalSum_pthreads_treesum_barrier_sem_in_class.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"CCalGlobalSum_pthreads_treesum_barrier_sem_in_class.d" -MT"CCalGlobalSum_pthreads_treesum_barrier_sem_in_class.d" -o "CCalGlobalSum_pthreads_treesum_barrier_sem_in_class.o" "../CCalGlobalSum_pthreads_treesum_barrier_sem_in_class.c"
+../CCalGlobalSum_pthreads_treesum_barrier_sem_in_class.c:26:5: error: conflicting types for ‘count’
+ int count = 0;
+     ^~~~~
+../CCalGlobalSum_pthreads_treesum_barrier_sem_in_class.c:18:7: note: previous declaration of ‘count’ was here
+ int * count;
+       ^~~~~
+../CCalGlobalSum_pthreads_treesum_barrier_sem_in_class.c: In function ‘main’:
+../CCalGlobalSum_pthreads_treesum_barrier_sem_in_class.c:67:10: error: too many arguments to function ‘malloc’
+  count = malloc(levels,sizeof(int));
+          ^~~~~~
+In file included from ../CCalGlobalSum_pthreads_treesum_barrier_sem_in_class.c:12:0:
+/usr/include/stdlib.h:539:14: note: declared here
+ extern void *malloc (size_t __size) __THROW __attribute_malloc__ __wur;
+              ^~~~~~
+../CCalGlobalSum_pthreads_treesum_barrier_sem_in_class.c:67:8: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+  count = malloc(levels,sizeof(int));
+        ^
+../CCalGlobalSum_pthreads_treesum_barrier_sem_in_class.c:73:2: error: ‘count_sems’ undeclared (first use in this function); did you mean ‘count’?
+  count_sems = malloc(depth * sizeof(sem_t));
+  ^~~~~~~~~~
+  count
+../CCalGlobalSum_pthreads_treesum_barrier_sem_in_class.c:73:2: note: each undeclared identifier is reported only once for each function it appears in
+../CCalGlobalSum_pthreads_treesum_barrier_sem_in_class.c:74:2: error: ‘barrier_sems’ undeclared (first use in this function)
+  barrier_sems = malloc(depth * sizeof(sem_t));
+  ^~~~~~~~~~~~
+../CCalGlobalSum_pthreads_treesum_barrier_sem_in_class.c:81:83: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+   if (pthread_create(&thread_handlers[thread], NULL, computingGlobalSum_pthreads, (void *)thread)){
+                                                                                   ^
+../CCalGlobalSum_pthreads_treesum_barrier_sem_in_class.c:82:43: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+    printf("Error creating a thread (id: %ld)\n", thread);
+                                         ~~^
+                                         %d
+../CCalGlobalSum_pthreads_treesum_barrier_sem_in_class.c:91:42: warning: format ‘%ld’ expects argument of type ‘long int’, but argument 2 has type ‘int’ [-Wformat=]
+    printf("Error joining a thread (id: %ld)\n", thread);
+                                        ~~^
+                                        %d
+../CCalGlobalSum_pthreads_treesum_barrier_sem_in_class.c: In function ‘computingGlobalSum_pthreads’:
+../CCalGlobalSum_pthreads_treesum_barrier_sem_in_class.c:129:4: error: ‘thread_sum’ undeclared (first use in this function); did you mean ‘threadID’?
+    thread_sum[my_rank] += thread_sum[my_rank+stride];
+    ^~~~~~~~~~
+    threadID
+../CCalGlobalSum_pthreads_treesum_barrier_sem_in_class.c:139:17: error: ‘count_barrier’ undeclared (first use in this function); did you mean ‘count_mutex’?
+    sem_t iSem = count_barrier[iLevel];
+                 ^~~~~~~~~~~~~
+                 count_mutex
+../CCalGlobalSum_pthreads_treesum_barrier_sem_in_class.c:142:13: error: subscripted value is neither array nor pointer nor vector
+    if (count[iLevel] == thread_count/(2*stride)-1){
+             ^
+../CCalGlobalSum_pthreads_treesum_barrier_sem_in_class.c:144:10: error: subscripted value is neither array nor pointer nor vector
+     count[iLevel] = 0;
+          ^
+../CCalGlobalSum_pthreads_treesum_barrier_sem_in_class.c:145:10: error: ‘i’ undeclared (first use in this function)
+     for (i=0;i<thread_count/(2*stride)-1;i++){
+          ^
+../CCalGlobalSum_pthreads_treesum_barrier_sem_in_class.c:151:10: error: subscripted value is neither array nor pointer nor vector
+     count[iLevel]++;
+          ^
+make: *** [CCalGlobalSum_pthreads_treesum_barrier_sem_in_class.o] Error 1
+subdir.mk:60: recipe for target 'CCalGlobalSum_pthreads_treesum_barrier_sem_in_class.o' failed
+
+15:41:57 Build Finished (took 1s.297ms)
+

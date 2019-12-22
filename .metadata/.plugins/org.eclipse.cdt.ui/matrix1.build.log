@@ -1,0 +1,9 @@
+15:44:54 **** Incremental Build of configuration Release for project matrix1 ****
+make all -C /home/student/Desktop/matrix1/Release 
+make: Entering directory '/home/student/Desktop/matrix1/Release'
+make: Nothing to be done for 'all'.
+make: Leaving directory '/home/student/Desktop/matrix1/Release'
+> Shell Completed (exit code = 0)
+
+15:44:54 Build Finished (took 447ms)
+
